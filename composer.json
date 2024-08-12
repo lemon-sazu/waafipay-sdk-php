@@ -15,7 +15,7 @@
     "ext-curl": "*",
     "ext-openssl": "*",
     "netresearch/jsonmapper": "^1.4",
-    "monolog/monolog": "^3.x"
+    "monolog/monolog": "*"
   },
   "autoload": {
     "psr-4": {
