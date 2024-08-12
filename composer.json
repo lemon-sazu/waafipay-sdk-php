@@ -15,11 +15,18 @@
     "ext-curl": "*",
     "ext-openssl": "*",
     "netresearch/jsonmapper": "^1.4",
-    "monolog/monolog": "^3.0"
+    "monolog/monolog": "^3.0",
+    "lemon-sazu/waafipay-sdk-php": "dev-main"
   },
   "autoload": {
     "psr-4": {
       "waafipay\\": "src/"
     }
-  }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/lemon-sazu/waafipay-sdk-php"
+    }
+  ]
 }
