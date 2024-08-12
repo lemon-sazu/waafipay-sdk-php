@@ -1,5 +1,5 @@
 {
-  "name": "waafipay/waafipay-sdk-php",
+"name": "lemon-sazu/waafipay-sdk-php",
   "description": "Waafipay PHP Library",
   "keywords": ["Waafipay", "Client", "SDK", "PHP"],
   "authors": [
@@ -16,7 +16,7 @@
     "ext-openssl": "*",
     "netresearch/jsonmapper": "^1.4",
     "monolog/monolog": "^3.0",
-    "lemon-sazu/waafipay-sdk-php": "main"
+    "lemon-sazu/waafipay-sdk-php": "dev-main"
   },
   "autoload": {
     "psr-4": {
@@ -28,5 +28,7 @@
       "type": "vcs",
       "url": "https://github.com/lemon-sazu/waafipay-sdk-php"
     }
-  ]
+  ],
+  "minimum-stability": "dev",
+    "prefer-stable": true
 }
