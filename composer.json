@@ -16,7 +16,7 @@
     "ext-openssl": "*",
     "netresearch/jsonmapper": "^1.4",
     "monolog/monolog": "^3.0",
-    "lemon-sazu/waafipay-sdk-php": "dev-main"
+    "lemon-sazu/waafipay-sdk-php": "^1.0"
   },
   "autoload": {
     "psr-4": {
