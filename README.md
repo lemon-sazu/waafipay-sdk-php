@@ -18,4 +18,7 @@ The Waafipay PHP Library provides a convenient way to integrate with the Waafipa
 ## Installation
 
 To install the Waafipay PHP Library, follow these steps:
+
+```
 composer require lemon-sazu/waafipay-sdk-php
+```
