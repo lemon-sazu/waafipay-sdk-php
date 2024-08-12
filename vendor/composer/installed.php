@@ -1,58 +1,56 @@
-<?php return array (
-  'root' => 
-  array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
-    'aliases' => 
-    array (
+<?php return array(
+    'root' => array(
+        'name' => 'waafipay/waafipay-sdk-php',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'e6d0cd074f95539f313d67feccd2f05017133cff',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
     ),
-    'reference' => NULL,
-    'name' => 'waafipay/waafipay-sdk-php',
-  ),
-  'versions' => 
-  array (
-    'monolog/monolog' => 
-    array (
-      'pretty_version' => '1.26.1',
-      'version' => '1.26.1.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => 'c6b00f05152ae2c9b04a448f99c7590beb6042f5',
+    'versions' => array(
+        'monolog/monolog' => array(
+            'pretty_version' => '3.7.0',
+            'version' => '3.7.0.0',
+            'reference' => 'f4393b648b78a5408747de94fca38beb5f7e9ef8',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../monolog/monolog',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'netresearch/jsonmapper' => array(
+            'pretty_version' => 'v1.6.0',
+            'version' => '1.6.0.0',
+            'reference' => '0d4d1b48d682a93b6bfedf60b88c7750e9cb0b06',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../netresearch/jsonmapper',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'psr/log' => array(
+            'pretty_version' => '3.0.0',
+            'version' => '3.0.0.0',
+            'reference' => 'fe5ea303b0887d5caefd3d431c3e61ad47037001',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../psr/log',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'psr/log-implementation' => array(
+            'dev_requirement' => false,
+            'provided' => array(
+                0 => '3.0.0',
+            ),
+        ),
+        'waafipay/waafipay-sdk-php' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'e6d0cd074f95539f313d67feccd2f05017133cff',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
     ),
-    'netresearch/jsonmapper' => 
-    array (
-      'pretty_version' => 'v1.6.0',
-      'version' => '1.6.0.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => '0d4d1b48d682a93b6bfedf60b88c7750e9cb0b06',
-    ),
-    'psr/log' => 
-    array (
-      'pretty_version' => '1.1.4',
-      'version' => '1.1.4.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => 'd49695b909c3b7628b6289db5479a1c204601f11',
-    ),
-    'psr/log-implementation' => 
-    array (
-      'provided' => 
-      array (
-        0 => '1.0.0',
-      ),
-    ),
-    'waafipay/waafipay-sdk-php' => 
-    array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => NULL,
-    ),
-  ),
 );
